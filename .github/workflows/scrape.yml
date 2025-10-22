@@ -32,7 +32,7 @@ jobs:
           cd scraper
           npm start
 
-      - name: Commit and Push stream.json
+      - name: Commit and Push stream.m3u
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
